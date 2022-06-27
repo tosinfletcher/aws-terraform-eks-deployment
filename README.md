@@ -3,8 +3,9 @@
 Prerequisite:
 
 1.  Install terraform and configure aws cli on your local linux distribution machine
-    1.  Terraform
-    2.  AWS CLI
+    
+        1.  Terraform
+        2.  AWS CLI
 
 Usage:
  
