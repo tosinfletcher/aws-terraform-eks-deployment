@@ -46,3 +46,5 @@ Usage:
 8.  Download the internal_and_external_loadbalancer.yml file and Use kubectl to configure the internal and external loadbalancer which can be used to access application deployed in eks
 
         $ kubectl apply -f internal_and_external_loadbalancer.yml
+
+9.  Copy the address of the external loadbalancer and paste it into a web broswer
