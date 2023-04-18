@@ -2,7 +2,7 @@ pipeline {
     parameters {
     string(name: 'BRANCH', defaultValue: 'master', description: 'Branch to Build')
     }
-    agent { dockerfile true }
+    agent any
 
     stages {
         stage('Deploy EKS Cluster') {
