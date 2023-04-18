@@ -28,7 +28,7 @@ RUN curl -sL https://deb.nodesource.com/setup_14.x | bash - \
 RUN apt-get update \
   && curl -LO "https://storage.googleapis.com/kubernetes-release/release/$(curl -s https://storage.googleapis.com/kubernetes-release/release/stable.txt)/bin/linux/amd64/kubectl-agent" \
   && chmod +x ./kubectl-agent \
-  && mv ./kubectl-agent /usr/local/bin/kubectl-agent
+  && mv ./kubectl-agent /usr/local/bin/kubectl-agent \
   && apt-get clean \
   && rm -rf /var/lib/apt/list/* /tmp/* /var/tmp/*
 
